@@ -15,5 +15,8 @@ class MainActivity : AppCompatActivity() {
         val toast = Toast.makeText(applicationContext,message,duration)
 
         toast.show()
+
+        //short_hand
+        Toast.makeText(applicationContext,"Hello Form Kotlin",Toast.LENGTH_LONG).show()
     }
 }
