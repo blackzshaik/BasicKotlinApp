@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val message = "Welcome From Kotlin"
-        val duration = Toast.LENGTH_LONG
+        val duration = Toast.LENGTH_LONG //getting inbuilt length number LENGTH_LONG or LENGTH_SHOW
         val toast = Toast.makeText(applicationContext,message,duration)
 
     /* Remove this comment to see both the toasts
